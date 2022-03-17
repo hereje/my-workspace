@@ -13,9 +13,6 @@ import { MyListComponent } from './my-list/my-list.component';
   imports: [
     CommonModule
   ],
-  exports: [
-    MyButtonComponent,
-    MyListComponent
-  ]
+  exports: []
 })
 export class ComponentsModule { }
